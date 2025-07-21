@@ -18,6 +18,6 @@ spec:
     spec:
       containers:
       - name: demo-app
-        image: pengbai/docker-supermario
+        image: bsord/tetris
         ports:
-        - containerPort: 8080
+        - containerPort: 80
