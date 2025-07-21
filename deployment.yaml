@@ -5,7 +5,7 @@ metadata:
   namespace: default
   labels:
     app: demo-app
-    app.kubernetes.io/instance: demo-app
+    app.kubernetes.io/instance: demoapp
 spec:
   replicas: 2
   selector:
@@ -18,6 +18,6 @@ spec:
     spec:
       containers:
       - name: demo-app
-        image: nginx:latest
+        image: bsord/tetris
         ports:
         - containerPort: 80
