@@ -18,6 +18,6 @@ spec:
     spec:
       containers:
       - name: demo-app
-        image: alexwhen/docker-2048
+        image: pengbai/docker-supermario
         ports:
-        - containerPort: 80
+        - containerPort: 8080
