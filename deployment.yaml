@@ -18,6 +18,6 @@ spec:
     spec:
       containers:
       - name: demo-app
-        image: nginx:latest
+        image: ganeshsnp987/tetris-v1:latest
         ports:
         - containerPort: 80
