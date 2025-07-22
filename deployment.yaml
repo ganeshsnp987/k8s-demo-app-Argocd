@@ -18,6 +18,6 @@ spec:
     spec:
       containers:
       - name: demo-app
-        image: bsord/tetris
+        image: alexwhen/docker-2048
         ports:
         - containerPort: 80
